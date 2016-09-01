@@ -19,7 +19,6 @@ english: Message
 - `message.error(content, duration)`
 - `message.info(content, duration)`
 - `message.warning(content, duration)`
-- `message.warn(content, duration)`
 - `message.loading(content, duration)`
 
 组件提供了四个静态方法，参数如下：

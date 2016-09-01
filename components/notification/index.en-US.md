@@ -2,7 +2,7 @@
 category: Components
 type: Views
 noinstant: true
-english: -tification
+title: Notification
 ---
 
 To display a notification message globally.
@@ -22,7 +22,6 @@ about upcoming steps the user may have to follow.
 - `notification.error(config)`
 - `notification.info(config)`
 - `notification.warning(config)`
-- `notification.warn(config)`
 - `notification.close(key: String)`
 - `notification.destroy()`
 

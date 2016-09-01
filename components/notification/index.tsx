@@ -115,6 +115,4 @@ const api = {
   api[type] = (args: ArgsProps) => api.open(assign({}, args, { type }));
 });
 
-(api as any).warn = (api as any).warning;
-
 export default api;

@@ -18,7 +18,6 @@ Display global messages as feedbacks to user operations.
 - `message.error(content, duration)`
 - `message.info(content, duration)`
 - `message.warning(content, duration)`
-- `message.warn(content, duration)`
 - `message.loading(content, duration)`
 
 This components provides 4 static methods, with arguments as following:

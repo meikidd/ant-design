@@ -73,10 +73,6 @@ export default {
   error(content: ConfigContent, duration?: ConfigDuration, onClose?: ConfigOnClose) {
     return notice(content, duration, 'error', onClose);
   },
-  // Departed usage, please use warning()
-  warn(content: ConfigContent, duration?: ConfigDuration, onClose?: ConfigOnClose) {
-    return notice(content, duration, 'warning', onClose);
-  },
   warning(content: ConfigContent, duration?: ConfigDuration, onClose?: ConfigOnClose) {
     return notice(content, duration, 'warning', onClose);
   },
