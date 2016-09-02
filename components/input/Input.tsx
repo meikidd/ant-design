@@ -155,6 +155,7 @@ export default class Input extends Component<InputProps, any> {
     const className = classNames({
       [`${props.prefixCls}-wrapper`]: true,
       [wrapperClassName]: (addonBefore || addonAfter),
+      [props.className]: !!props.className,
     });
 
     return (
@@ -187,7 +188,6 @@ export default class Input extends Component<InputProps, any> {
       [prefixCls]: true,
       [`${prefixCls}-sm`]: props.size === 'small',
       [`${prefixCls}-lg`]: props.size === 'large',
-      [props.className]: !!props.className,
     });
 
     if ('value' in props) {
